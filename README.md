@@ -25,6 +25,11 @@ const UserContext = React.createContext(null);
 
 //App
 
+const App = props => {
+    const context = useContext(UserContext)
+    ...
+}
+
 <UserContext.Provider value = {...}>
     <App />
 </UserContext.Provider>
